@@ -1,15 +1,20 @@
-package com.asaadna.photogram;
+package com.asaadna.photogram.activities;
 
 import android.annotation.SuppressLint;
 import android.os.Bundle;
 import android.view.MenuItem;
 
+import com.asaadna.photogram.R;
+import com.asaadna.photogram.fragments.CameraFragment;
+import com.asaadna.photogram.fragments.HomeFragment;
+import com.asaadna.photogram.fragments.PendingFragment;
+import com.asaadna.photogram.fragments.ProfileFragment;
+import com.asaadna.photogram.fragments.SearchFragment;
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.fragment.app.Fragment;
-
 
 public class MainActivity extends AppCompatActivity {
 
