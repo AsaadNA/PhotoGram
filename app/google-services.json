@@ -1,0 +1,68 @@
+{
+  "project_info": {
+    "project_number": "689743385444",
+    "project_id": "photogram-dcbcd",
+    "storage_bucket": "photogram-dcbcd.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:689743385444:android:faf43f668e1a45f087e071",
+        "android_client_info": {
+          "package_name": "com.asaad.photogram"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "689743385444-momht785h7ahfk4qkmbf8qkaga8mlf8s.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA0E5wNWcdZnzWz-DBqafg9aYbfJlhjw5E"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "689743385444-momht785h7ahfk4qkmbf8qkaga8mlf8s.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:689743385444:android:c28b9aebce85d9c087e071",
+        "android_client_info": {
+          "package_name": "com.asaadna.photogram"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "689743385444-momht785h7ahfk4qkmbf8qkaga8mlf8s.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA0E5wNWcdZnzWz-DBqafg9aYbfJlhjw5E"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "689743385444-momht785h7ahfk4qkmbf8qkaga8mlf8s.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
