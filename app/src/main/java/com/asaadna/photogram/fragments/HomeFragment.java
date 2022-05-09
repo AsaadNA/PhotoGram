@@ -63,6 +63,7 @@ public class HomeFragment extends Fragment {
                     //Mapping it to our model
                     for(DocumentSnapshot snapshot : documentSnapshots.getDocuments()) {
                         postList.add(snapshot.toObject(Post.class));
+                        postList.get(postList.size()-1).setID(snapshot.getId());
                     }
                     //Mutable list
                     posts.clear();
