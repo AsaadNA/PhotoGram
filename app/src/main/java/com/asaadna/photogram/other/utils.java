@@ -1,4 +1,4 @@
-package com.asaadna.photogram;
+package com.asaadna.photogram.other;
 
 import android.content.Context;
 import android.widget.Toast;

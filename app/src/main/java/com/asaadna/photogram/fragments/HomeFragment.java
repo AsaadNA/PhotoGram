@@ -13,10 +13,10 @@ import androidx.fragment.app.Fragment;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.asaadna.photogram.PostsAdapter;
+import com.asaadna.photogram.adapters.PostsAdapter;
 import com.asaadna.photogram.R;
 import com.asaadna.photogram.models.Post;
-import com.asaadna.photogram.utils;
+import com.asaadna.photogram.other.utils;
 import com.google.firebase.firestore.DocumentSnapshot;
 import com.google.firebase.firestore.EventListener;
 import com.google.firebase.firestore.FirebaseFirestore;
@@ -57,17 +57,13 @@ public class HomeFragment extends Fragment {
             @Override
             public void onEvent(@Nullable QuerySnapshot documentSnapshots, @Nullable FirebaseFirestoreException error) {
                 if(documentSnapshots == null || error != null) {
-                    Toast.makeText(getActivity(),"Error Occurred While Fetching Posts",Toast.LENGTH_SHORT).show();
                     Log.e("Home","Error occured while fetching posts.." , error);
                 } else {
-
-                    utils.toastDebug(getActivity(),"Posts Loaded !");
                     List<Post> postList = new ArrayList<Post>();
                     //Mapping it to our model
                     for(DocumentSnapshot snapshot : documentSnapshots.getDocuments()) {
                         postList.add(snapshot.toObject(Post.class));
                     }
-
                     //Mutable list
                     posts.clear();
                     posts.addAll(postList);

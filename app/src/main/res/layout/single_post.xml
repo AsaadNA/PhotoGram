@@ -5,6 +5,7 @@
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
     android:layout_marginTop="10dp"
+    android:layout_marginBottom="10dp"
     android:layout_weight="1"
     android:orientation="vertical">
 
@@ -29,7 +30,7 @@
                 android:layout_width="40dp"
                 android:layout_height="40dp"
                 android:src="@drawable/pic"
-                app:civ_border_color="#000000"
+                app:civ_border_color="#151515"
                 app:civ_border_width="2dp" />
 
             <TextView
@@ -54,11 +55,11 @@
 
         <ImageView
             android:id="@+id/postImage"
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="350dp"
             android:layout_marginTop="10dp"
             android:layout_weight="1"
-            android:background="@drawable/testpic"
+            android:background="@drawable/transparent_bg"
             android:scaleType="centerCrop" />
 
         <LinearLayout
@@ -110,7 +111,7 @@
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="85dp"
+            android:layout_height="89dp"
             android:layout_marginLeft="10dp"
             android:layout_marginRight="10dp"
             android:orientation="vertical">
