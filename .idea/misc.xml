@@ -5,10 +5,12 @@
       <map>
         <entry key="..\:/Workspace/Ongoing/PhotoGram/app/src/main/res/drawable/progess_animation.xml" value="0.2205" />
         <entry key="..\:/Workspace/Ongoing/PhotoGram/app/src/main/res/layout/activity_login.xml" value="0.23645833333333333" />
-        <entry key="..\:/Workspace/Ongoing/PhotoGram/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/Workspace/Ongoing/PhotoGram/app/src/main/res/layout/activity_main.xml" value="0.33" />
         <entry key="..\:/Workspace/Ongoing/PhotoGram/app/src/main/res/layout/fragment_camera.xml" value="0.25" />
         <entry key="..\:/Workspace/Ongoing/PhotoGram/app/src/main/res/layout/fragment_home.xml" value="0.23645833333333333" />
+        <entry key="..\:/Workspace/Ongoing/PhotoGram/app/src/main/res/layout/fragment_search.xml" value="0.24010416666666667" />
         <entry key="..\:/Workspace/Ongoing/PhotoGram/app/src/main/res/layout/single_post.xml" value="0.25" />
+        <entry key="..\:/Workspace/Ongoing/PhotoGram/app/src/main/res/layout/single_search.xml" value="0.24010416666666667" />
         <entry key="..\:/Workspace/Ongoing/PhotoGram/app/src/main/res/menu/bottom_nav_menu.xml" value="0.1" />
         <entry key="..\:/Workspace/Ongoing/PhotoGram/app/src/main/res/xml/config.xml" value="0.21354166666666666" />
       </map>
