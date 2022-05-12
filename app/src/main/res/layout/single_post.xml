@@ -44,14 +44,14 @@
                 android:text="AsaadNA"
                 android:textColor="#303030"
                 android:textStyle="bold" />
-
+<!--
             <ImageView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:adjustViewBounds="true"
                 android:padding="10dp"
                 android:src="@drawable/menu" />
-
+-->
         </LinearLayout>
 
         <ImageView

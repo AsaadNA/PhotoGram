@@ -5,18 +5,28 @@
     android:layout_margin="10dp">
 
     <TextView
-        android:id="@+id/search_username"
+        android:id="@+id/pending_username"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="5dp"
         android:text="NomanAbbasi"
         android:textColor="#000000"
-        android:textSize="20sp" />
+        android:textSize="15sp" />
 
     <Button
-        android:id="@+id/search_button"
+        android:id="@+id/pending_accept"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="40dp"
-        android:text="Follow" />
+        android:text="Accept" />
+
+    <Button
+        android:id="@+id/pending_reject"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_weight="1"
+        android:text="Reject" />
+
 </LinearLayout>
